@@ -47,7 +47,7 @@ pushd package/community
 #git clone --depth=1 https://github.com/Lienol/openwrt-package
 
 # Add luci-app-eqos
-#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-eqos
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-eqos
 
 # Add dnsfilter
 #git clone --depth=1 https://github.com/garypang13/luci-app-dnsfilter
@@ -125,7 +125,7 @@ pushd package/community
 #git clone --depth=1 https://github.com/zcy85611/openwrt-luci-kcp-udp
 
 # Add OpenAppFilter
-#git clone --depth=1 https://github.com/destan19/OpenAppFilter
+git clone --depth=1 https://github.com/destan19/OpenAppFilter
 
 # Add luci-app-oled (R2S Only)
 #git clone --depth=1 https://github.com/NateLol/luci-app-oled
